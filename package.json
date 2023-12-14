@@ -1,0 +1,49 @@
+{
+  "name": "adventofcode2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "day01": "echo F|xcopy /s /Y .\\day01\\input .\\dist\\day01\\input && tsc --lib ES2021.String .\\day01/solution.ts --outDir .\\dist && node .\\dist\\day01/solution.js",
+    "day02": "echo F|xcopy /s /Y .\\day02\\input .\\dist\\day02\\input && tsc --lib ES2021.String .\\day02/solution.ts --outDir .\\dist && node .\\dist\\day02/solution.js",
+    "day03": "echo F|xcopy /s /Y .\\day03\\input .\\dist\\day03\\input && tsc --lib ES2021.String .\\day03/solution.ts --outDir .\\dist && node .\\dist\\day03/solution.js",
+    "day04": "echo F|xcopy /s /Y .\\day04\\input .\\dist\\day04\\input && tsc --lib ES2021.String .\\day04/solution.ts --outDir .\\dist && node .\\dist\\day04/solution.js",
+    "day05": "echo F|xcopy /s /Y .\\day05\\input .\\dist\\day05\\input && tsc --lib ES2021.String .\\day05/solution.ts --outDir .\\dist && node .\\dist\\day05/solution.js",
+    "day06": "echo F|xcopy /s /Y .\\day06\\input .\\dist\\day06\\input && tsc --lib ES2021.String .\\day06/solution.ts --outDir .\\dist && node .\\dist\\day06/solution.js",
+    "day07": "echo F|xcopy /s /Y .\\day07\\input .\\dist\\day07\\input && tsc --lib ES2021.String .\\day07/solution.ts --outDir .\\dist && node .\\dist\\day07/solution.js",
+    "day08": "echo F|xcopy /s /Y .\\day08\\input .\\dist\\day08\\input && tsc --lib ES2021.String .\\day08/solution.ts --outDir .\\dist && node .\\dist\\day08/solution.js",
+    "day09": "echo F|xcopy /s /Y .\\day09\\input .\\dist\\day09\\input && tsc --lib ES2021.String .\\day09/solution.ts --outDir .\\dist && node .\\dist\\day09/solution.js",
+    "day10": "echo F|xcopy /s /Y .\\day10\\input .\\dist\\day10\\input && tsc --lib ES2021.String .\\day10/solution.ts --outDir .\\dist && node .\\dist\\day10/solution.js",
+    "day11": "echo F|xcopy /s /Y .\\day11\\input .\\dist\\day11\\input && tsc --lib ES2021.String .\\day11/solution.ts --outDir .\\dist && node .\\dist\\day11/solution.js",
+    "day12": "echo F|xcopy /s /Y .\\day12\\input .\\dist\\day12\\input && tsc --lib ES2021.String .\\day12/solution.ts --outDir .\\dist && node .\\dist\\day12/solution.js",
+    "day13": "echo F|xcopy /s /Y .\\day13\\input .\\dist\\day13\\input && tsc --lib ES2021.String .\\day13/solution.ts --outDir .\\dist && node .\\dist\\day13/solution.js",
+    "day14": "echo F|xcopy /s /Y .\\day14\\input .\\dist\\day14\\input && tsc --lib ES2021.String .\\day14/solution.ts --outDir .\\dist && node .\\dist\\day14/solution.js",
+    "day15": "echo F|xcopy /s /Y .\\day15\\input .\\dist\\day15\\input && tsc --lib ES2021.String .\\day15/solution.ts --outDir .\\dist && node .\\dist\\day15/solution.js",
+    "day16": "echo F|xcopy /s /Y .\\day16\\input .\\dist\\day16\\input && tsc --lib ES2021.String .\\day16/solution.ts --outDir .\\dist && node .\\dist\\day16/solution.js",
+    "day17": "echo F|xcopy /s /Y .\\day17\\input .\\dist\\day17\\input && tsc --lib ES2021.String .\\day17/solution.ts --outDir .\\dist && node .\\dist\\day17/solution.js",
+    "day18": "echo F|xcopy /s /Y .\\day18\\input .\\dist\\day18\\input && tsc --lib ES2021.String .\\day18/solution.ts --outDir .\\dist && node .\\dist\\day18/solution.js",
+    "day19": "echo F|xcopy /s /Y .\\day19\\input .\\dist\\day19\\input && tsc --lib ES2021.String .\\day19/solution.ts --outDir .\\dist && node .\\dist\\day19/solution.js",
+    "day20": "echo F|xcopy /s /Y .\\day20\\input .\\dist\\day20\\input && tsc --lib ES2021.String .\\day20/solution.ts --outDir .\\dist && node .\\dist\\day20/solution.js",
+    "day21": "echo F|xcopy /s /Y .\\day21\\input .\\dist\\day21\\input && tsc --lib ES2021.String .\\day21/solution.ts --outDir .\\dist && node .\\dist\\day21/solution.js",
+    "day22": "echo F|xcopy /s /Y .\\day22\\input .\\dist\\day22\\input && tsc --lib ES2021.String .\\day22/solution.ts --outDir .\\dist && node .\\dist\\day22/solution.js",
+    "day23": "echo F|xcopy /s /Y .\\day23\\input .\\dist\\day23\\input && tsc --lib ES2021.String .\\day23/solution.ts --outDir .\\dist && node .\\dist\\day23/solution.js",
+    "day24": "echo F|xcopy /s /Y .\\day24\\input .\\dist\\day24\\input && tsc --lib ES2021.String .\\day24/solution.ts --outDir .\\dist && node .\\dist\\day24/solution.js",
+    "day25": "echo F|xcopy /s /Y .\\day25\\input .\\dist\\day25\\input && tsc --lib ES2021.String .\\day25/solution.ts --outDir .\\dist && node .\\dist\\day25/solution.js",
+    "day26": "echo F|xcopy /s /Y .\\day26\\input .\\dist\\day26\\input && tsc --lib ES2021.String .\\day26/solution.ts --outDir .\\dist && node .\\dist\\day26/solution.js",
+    "day27": "echo F|xcopy /s /Y .\\day27\\input .\\dist\\day27\\input && tsc --lib ES2021.String .\\day27/solution.ts --outDir .\\dist && node .\\dist\\day27/solution.js",
+    "day28": "echo F|xcopy /s /Y .\\day28\\input .\\dist\\day28\\input && tsc --lib ES2021.String .\\day28/solution.ts --outDir .\\dist && node .\\dist\\day28/solution.js",
+    "day29": "echo F|xcopy /s /Y .\\day29\\input .\\dist\\day29\\input && tsc --lib ES2021.String .\\day29/solution.ts --outDir .\\dist && node .\\dist\\day29/solution.js",
+    "day30": "echo F|xcopy /s /Y .\\day30\\input .\\dist\\day30\\input && tsc --lib ES2021.String .\\day30/solution.ts --outDir .\\dist && node .\\dist\\day30/solution.js",
+    "day31": "echo F|xcopy /s /Y .\\day31\\input .\\dist\\day31\\input && tsc --lib ES2021.String .\\day31/solution.ts --outDir .\\dist && node .\\dist\\day31/solution.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.2"
+  }
+}
